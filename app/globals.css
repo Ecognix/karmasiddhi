@@ -273,7 +273,7 @@ h3{font-size:1.4rem}
 .hero-art svg{display:block;width:100%;height:auto;overflow:visible}
 @keyframes ha-draw{to{stroke-dashoffset:0}}
 @keyframes ha-fade{to{opacity:1}}
-@media (max-width:900px){.hero-art{width:86vw;right:-16vw;top:56%}.ha-art{opacity:.22}}
+@media (max-width:900px){.hero-art{width:86vw;right:-16vw;top:65%}.ha-art{opacity:.22}.ha-base{display:none}}
 
 /* hero contour lines: a simple slow draw-in */
 .contours path{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 5.2s var(--ease) 1.1s forwards}
