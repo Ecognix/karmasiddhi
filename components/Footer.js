@@ -7,11 +7,11 @@ export default function Footer() {
       <div className="wrap footer-grid">
         <div>
           <div className="brand footer-logo">
-            <img className="logo-mark" src="/logo-mark.png" alt="" width="42" height="42" />
-            <img className="logo-word" src="/logo-wordmark.png" alt="RJ Developers" width="140" height="18" />
+            <img className="logo-mark" src="/logo-mark.png" alt="" width="52" height="58" />
+            <span className="logo-text"><span>Karmasiddhi</span> <span>Nirmaan</span></span>
           </div>
           <p className="footer-tag">{TAGLINE}</p>
-          <p className="muted">RJ Developers builds residential, villa and commercial projects across Guwahati.</p>
+          <p className="muted">Karmasiddhi Nirmaan builds residential, villa and commercial projects across Guwahati.</p>
         </div>
         <div>
           <h4>Explore</h4>
@@ -21,12 +21,12 @@ export default function Footer() {
         </div>
         <div>
           <h4>Visit our office</h4>
-          <p>RJ Developers<br />Diganta Baruah C/o, Bhaktobari<br />PWD Road, Garal / Jalukbari<br />Guwahati, Assam 781017</p>
-          <p><a href="tel:+919395977575">+91 93959 77575</a><br /><a href="mailto:hello@rjdevelopers.in">hello@rjdevelopers.in</a></p>
+          <p>Karmasiddhi Nirmaan<br />KRB Rd, Bharalumukh<br />Guwahati, Assam 781009</p>
+          <p><a href="tel:+919365910512">+91 93659 10512</a><br /><a href="mailto:hello@karmasiddhinirmaan.in">hello@karmasiddhinirmaan.in</a></p>
         </div>
       </div>
       <div className="wrap footer-base">
-        <span>© {new Date().getFullYear()} RJ Developers. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Karmasiddhi Nirmaan. All rights reserved.</span>
         <span>Assam RERA registration details available on request.</span>
       </div>
     </footer>

@@ -1,4 +1,4 @@
-# RJ Developers website (Next.js)
+# Karmasiddhi Nirmaan website (Next.js)
 
     npm install
     npm run dev      # http://localhost:3000
@@ -13,4 +13,4 @@
 - Set the WhatsApp number in lib/data.js (WHATSAPP, digits only with country code).
 - The testimonials, amenities, FAQ answers, sizes and handover dates are sample content: replace with verified facts (RERA numbers, loan approvals and so on).
 - The construction animation lives in components/BuildingAnimation.js.
-- Logo files: public/logo-mark.png and public/logo-wordmark.png (the mark is also the browser icon).
+- Logo files: public/logo-mark.png and public/logo-wordmark.png (also used as the browser icon via app/icon.png).

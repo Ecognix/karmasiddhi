@@ -5,10 +5,10 @@ import Carousel from "../../components/Carousel";
 import Stagger from "../../components/Stagger";
 import { stats, values, teams } from "../../lib/data";
 
-export const metadata = { title: "About", description: "The story, principles and people behind RJ Developers, Guwahati." };
+export const metadata = { title: "About", description: "The story, principles and people behind Karmasiddhi Nirmaan, Guwahati." };
 
 const timeline = [
-  ["2008", "RJ Developers is founded in Guwahati and delivers its first 24-home apartment block."],
+  ["2008", "Karmasiddhi Nirmaan is founded in Guwahati and delivers its first 24-home apartment block."],
   ["2012", "We move into commercial development with our first office building on GS Road."],
   ["2017", "Our first gated community opens, with a clubhouse, rainwater harvesting and solar-powered common areas."],
   ["2021", "We pass 3,000 families housed and open a dedicated customer care office."],
@@ -21,7 +21,7 @@ export default function About() {
       <section className="page-head">
         <div className="wrap">
           <h1 className="h1">We build where Guwahati is going.</h1>
-          <p className="lead">RJ Developers began with a simple rule: build every home as if our own family will live in it. Eighteen years and more than three thousand families later, the rule has not changed.</p>
+          <p className="lead">Karmasiddhi Nirmaan began with a simple rule: build every home as if our own family will live in it. Eighteen years and more than three thousand families later, the rule has not changed.</p>
         </div>
       </section>
 
@@ -37,7 +37,7 @@ export default function About() {
 
       <section className="strip">
         <div className="wrap">
-          <Carousel className="dark" perView={2} mobileView={2} label="RJ Developers in numbers">
+          <Carousel className="dark" perView={2} mobileView={2} label="Karmasiddhi Nirmaan in numbers">
             {stats.map((s) => (<div key={s.l} className="stat"><strong>{s.n}</strong><span>{s.l}</span></div>))}
           </Carousel>
         </div>

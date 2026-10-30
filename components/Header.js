@@ -23,9 +23,9 @@ export default function Header() {
   return (
     <header className={`header ${solid || open ? "solid" : ""}`}>
       <div className="wrap header-row">
-        <Link href="/" className="brand" aria-label="RJ Developers home">
-          <img className="logo-mark" src="/logo-mark.png" alt="" width="42" height="42" />
-          <img className="logo-word" src="/logo-wordmark.png" alt="RJ Developers" width="140" height="18" />
+        <Link href="/" className="brand" aria-label="Karmasiddhi Nirmaan home">
+          <img className="logo-mark" src="/logo-mark.png" alt="" width="52" height="58" />
+          <span className="logo-text"><span>Karmasiddhi</span> <span>Nirmaan</span></span>
         </Link>
         <nav className={`nav ${open ? "open" : ""}`} aria-label="Main">
           {links.map((l) => (

@@ -5,6 +5,7 @@ import Icon from "../components/Icon";
 import Carousel from "../components/Carousel";
 import Stagger from "../components/Stagger";
 import HeroLines from "../components/HeroLines";
+import HeroBuilding from "../components/HeroBuilding";
 import BuildingAnimation from "../components/BuildingAnimation";
 import { projects, specs, stats, why, amenities, process, testimonials, faqs } from "../lib/data";
 
@@ -13,12 +14,13 @@ export default function Home() {
     <>
       <section className="hero">
         <HeroLines />
+        <HeroBuilding />
         <div className="wrap hero-inner">
           <h1 className="hero-title">
-            <span className="line"><span>Dreamers</span></span>
-            <span className="line"><span><b className="lux">Luxury</b> in lifestyle</span></span>
+            <span className="line"><span>Destined to build</span></span>
+            <span className="line"><span><b className="lux">success</b></span></span>
           </h1>
-          <p className="hero-sub">For eighteen years RJ Developers has built luxury apartments, villas and workplaces in Guwahati, finished on time, made to last and honest about what they cost.</p>
+          <p className="hero-sub">For eighteen years Karmasiddhi Nirmaan has built luxury apartments, villas and workplaces in Guwahati, finished on time, made to last and honest about what they cost.</p>
           <div className="hero-actions">
             <Link href="/projects" className="btn">View our projects</Link>
             <Link href="/contact" className="btn btn-ghost">Book a site visit</Link>
@@ -28,7 +30,7 @@ export default function Home() {
 
       <section className="strip">
         <div className="wrap">
-          <Carousel className="dark" perView={2} mobileView={2} label="RJ Developers in numbers">
+          <Carousel className="dark" perView={2} mobileView={2} label="Karmasiddhi Nirmaan in numbers">
             {stats.map((s) => (<div key={s.l} className="stat"><strong>{s.n}</strong><span>{s.l}</span></div>))}
           </Carousel>
         </div>
@@ -47,7 +49,7 @@ export default function Home() {
 
       <section className="section tint">
         <div className="wrap">
-          <Reveal as="h2" className="h2 narrow">Why families and companies choose RJ Developers</Reveal>
+          <Reveal as="h2" className="h2 narrow">Why families and companies choose Karmasiddhi Nirmaan</Reveal>
           <Stagger className="grid3 gap-top">
             {why.map((w) => (
               <article key={w.t} className="icard">

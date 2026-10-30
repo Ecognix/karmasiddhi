@@ -1,6 +1,6 @@
 import ContactForm from "../../components/ContactForm";
 
-export const metadata = { title: "Contact", description: "Book a site visit or speak to the RJ Developers team in Guwahati." };
+export const metadata = { title: "Contact", description: "Book a site visit or speak to the Karmasiddhi Nirmaan team in Guwahati." };
 
 export default function Contact() {
   return (
@@ -15,13 +15,13 @@ export default function Contact() {
       <section className="wrap map-wrap">
         <iframe
           className="map"
-          title="RJ Developers office at PWD Road, Jalukbari, Guwahati"
-          src="https://www.google.com/maps?q=Bhaktobari,+PWD+Road,+Jalukbari,+Guwahati,+Assam+781017&output=embed"
+          title="Karmasiddhi Nirmaan office at KRB Rd, Bharalumukh, Guwahati"
+          src="https://www.google.com/maps?q=KRB+Rd,+Bharalumukh,+Guwahati,+Assam+781009&output=embed"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           allowFullScreen
         />
-        <p className="muted map-note">Diganta Baruah C/o, Bhaktobari, PWD Road, Garal / Jalukbari, Guwahati, Assam 781017. <a className="link" href="https://www.google.com/maps/search/?api=1&query=Bhaktobari+PWD+Road+Jalukbari+Guwahati+Assam+781017" target="_blank" rel="noopener noreferrer">Open in Google Maps</a></p>
+        <p className="muted map-note">KRB Rd, Bharalumukh, Guwahati, Assam 781009. <a className="link" href="https://www.google.com/maps/search/?api=1&query=KRB+Rd+Bharalumukh+Guwahati+Assam+781009" target="_blank" rel="noopener noreferrer">Open in Google Maps</a></p>
       </section>
 
       <section className="section-tight">
@@ -29,11 +29,11 @@ export default function Contact() {
           <ContactForm />
           <aside className="prose">
             <h3>Head office</h3>
-            <p>RJ Developers<br />Diganta Baruah C/o, Bhaktobari<br />PWD Road, Garal / Jalukbari<br />Guwahati, Assam 781017</p>
+            <p>Karmasiddhi Nirmaan<br />KRB Rd, Bharalumukh<br />Guwahati, Assam 781009</p>
             <h3>Call or write</h3>
-            <p><a href="tel:+919395977575">+91 93959 77575</a><br /><a href="mailto:hello@rjdevelopers.in">hello@rjdevelopers.in</a></p>
+            <p><a href="tel:+919365910512">+91 93659 10512</a><br /><a href="mailto:hello@karmasiddhinirmaan.in">hello@karmasiddhinirmaan.in</a></p>
             <h3>Office hours</h3>
-            <p>Monday to Saturday, 10 am to 6 pm.<br />Site visits on Sundays by appointment.</p>
+            <p>Open from 10 am to 7 pm.</p>
             <h3>What happens next</h3>
             <p>An advisor calls you within one working day, confirms your preferred project and time, and sends the price sheet and plans before you arrive. There is no obligation to book.</p>
           </aside>

@@ -77,7 +77,7 @@ export default function BuildingAnimation() {
 
       <div>
         <h2 className="h2">Watch a home go up, from soil to keys.</h2>
-        <p className="lead light">Every RJ tower follows the same five stages, and you can follow each one through site updates and visits.</p>
+        <p className="lead light">Every Karmasiddhi tower follows the same five stages, and you can follow each one through site updates and visits.</p>
         <ul className="stage-list">
           {STAGES.map((st, i) => (
             <li key={st.t} className={i === active ? "on" : i < active ? "done" : ""}>
